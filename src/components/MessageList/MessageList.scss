@@ -1,0 +1,28 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.message-list {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  padding: $spacer;
+
+  /* width */
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: $gray-500;
+  }
+
+  /* Handle on hover */
+  &::-webkit-scrollbar-thumb:hover {
+    background: $gray-700;
+  }
+}

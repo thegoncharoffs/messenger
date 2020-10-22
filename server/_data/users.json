@@ -1,0 +1,57 @@
+[
+  {
+    "_id": "5f6b6389334cf630c497358d",
+    "firstName": "Boris",
+    "lastName": "Goncharov",
+    "email": "thegoncharoffs@gmail.com",
+    "password": "1234567",
+    "settings": {
+      "theme": "dark",
+      "language": "en"
+    }
+  },
+  {
+    "_id": "5f6b6389334cf630c497358e",
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "johndoe@gmail.com",
+    "password": "1234567",
+    "settings": {
+      "theme": "light",
+      "language": "ru"
+    }
+  },
+  {
+    "_id": "5f6b6389334cf630c497358f",
+    "firstName": "Ivan",
+    "lastName": "Ivanov",
+    "email": "ivanoffs@gmail.com",
+    "password": "1234567",
+    "settings": {
+      "theme": "light",
+      "language": "ru"
+    }
+  },
+  {
+    "_id": "5f6b6389334cf630c4973590",
+    "firstName": "Steve",
+    "lastName": "Jobs",
+    "email": "stevejobs@gmail.com",
+    "password": "1234567",
+    "settings": {
+      "theme": "light",
+      "language": "ru"
+    }
+  },
+  {
+    "_id": "5f6b6389334cf630c4973591",
+    "firstName": "Bot",
+    "lastName": "Auto",
+    "email": "bot@gmail.com",
+    "password": "1234567",
+    "settings": {
+      "theme": "light",
+      "language": "ru"
+    }
+  }
+]

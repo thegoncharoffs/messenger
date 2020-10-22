@@ -1,0 +1,36 @@
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+.header {
+  &__settings-icon {
+    height: $spacer * 1.25;
+    width: $spacer * 1.25;
+    fill: $white;
+    cursor: pointer;
+
+    &.rotate {
+      animation-name: spin;
+      animation-duration: 5000ms;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+
+      @keyframes spin {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    }
+
+    &:hover {
+      fill: $yellow;
+    }
+  }
+
+  &__chat-icon {
+    margin-left: $spacer;
+    height: $spacer * 2;
+    width: $spacer * 2;
+  }
+}

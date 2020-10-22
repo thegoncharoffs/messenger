@@ -1,0 +1,30 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.message {
+  position: relative;
+  padding: $spacer * 0.5 $spacer * 1.5;
+  min-width: 20%;
+  max-width: 40%;
+  border-radius: $spacer * 0.25;
+  margin-bottom: $spacer;
+
+  &__close {
+    position: absolute;
+    top: 2px;
+    right: 4px;
+    font-size: 10px;
+    cursor: pointer;
+  }
+
+  &._grey {
+    background-color: $gray-700;
+    color: $white;
+    align-self: flex-start;
+  }
+
+  &._yellow {
+    background-color: $yellow;
+    color: $gray-700;
+    align-self: flex-end;
+  }
+}
